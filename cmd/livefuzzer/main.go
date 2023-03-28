@@ -284,7 +284,7 @@ func runSpam(c *cli.Context) error {
 			return err
 		}
 		SpamTransactions(uint64(txPerAccount), false, !noAL, seed)
-		time.Sleep(12 * time.Second)
+		time.Sleep(1 * time.Second)
 	}
 }
 
